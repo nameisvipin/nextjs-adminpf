@@ -171,7 +171,8 @@ export default function ProjectModal({ isOpen, onClose, onSaveSuccess, project }
                      <div className="w-full sm:w-auto order-2 sm:order-1 text-center sm:text-left">
                         {saveError && (
                             <p className="text-sm text-red-400 flex items-center gap-1">
-                               <AlertTriangle size={16} /> {saveError}
+                               {/* <AlertTriangle size={16} />  */}
+                               {saveError}
                             </p>
                         )}
                     </div>

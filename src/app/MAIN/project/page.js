@@ -172,7 +172,7 @@ export default function ProjectPage() {
                     <div className="text-center py-16 text-gray-400">
                          <ServerCrash size={48} className="mx-auto mb-4 opacity-50" />
                         <p className="text-xl mb-2">No projects found.</p>
-                        <p>Click "Add Project" to get started!</p>
+                        <p>Click &quot;Add Project&quot; to get started!</p>
                     </div>
                 ) : (
                      // --- Projects Table ---
