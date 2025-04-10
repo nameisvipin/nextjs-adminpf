@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { X, Save, Loader2, Type, FileText, Link2, Github, Image as ImageIcon, Tag } from "lucide-react"; // Added icons
+import { X, Save, AlertTriangle, Loader2, Type, FileText, Link2, Github, Image as ImageIcon, Tag } from "lucide-react"; // Added icons
 
 // Reusable Input Field Component with Floating Label
 const FloatingLabelInput = ({ id, label, icon: Icon, value, onChange, ...props }) => (
@@ -171,7 +171,7 @@ export default function ProjectModal({ isOpen, onClose, onSaveSuccess, project }
                      <div className="w-full sm:w-auto order-2 sm:order-1 text-center sm:text-left">
                         {saveError && (
                             <p className="text-sm text-red-400 flex items-center gap-1">
-                               {/* <AlertTriangle size={16} />  */}
+                               <AlertTriangle size={16} /> 
                                {saveError}
                             </p>
                         )}
