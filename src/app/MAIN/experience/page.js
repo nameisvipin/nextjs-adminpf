@@ -159,7 +159,7 @@ export default function ExperiencePage() {
                          <div className="text-center py-20 text-gray-400">
                              <ServerCrash size={48} className="mx-auto mb-4 opacity-50" />
                              <p className="text-xl mb-2">No experiences added yet.</p>
-                             <p>Click "Add Experience" to build your timeline.</p>
+                             <p>Click &quot;Add Experience&quot; to build your timeline.</p>
                          </div>
                      ) : (
                          <table className="w-full min-w-[700px] text-left">
